@@ -173,8 +173,10 @@ bash scripts/evaluate.sh
 
 - **Multilingual Image-Text Translation Dataset**: [rileykim/multilingual-image-text-translation](https://huggingface.co/datasets/rileykim/multilingual-image-text-translation)
   - 1,100 samples (100 per language) across 11 languages
-  - FLORES-200 based image-text translation pairs
+  - Based on [FLORES-200](https://github.com/facebookresearch/flores/blob/main/flores200/README.md) text dataset, converted to images through text rendering
+  - Text-image pairs created from original FLORES-200 text data
   - 512x512 PNG images with text pairs
+  - Used for MLLM fine-tuning and LoRA training
   - Images are embedded in the dataset (automatically handled)
 
 ### Download Datasets
