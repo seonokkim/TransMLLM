@@ -203,7 +203,7 @@ dataset = load_dataset("rileykim/multilingual-image-text-translation", split="te
 
 ## Acknowledgments
 
-- Base model: [LLaVA-Next](https://github.com/llava-vl/llava-next) and [Mistral-7B](https://huggingface.co/mistralai/Mistral-7B-v0.1)
+- Base model: [LLaVA-v1.6-Mistral-7B](https://huggingface.co/liuhaotian/llava-v1.6-mistral-7b)
 - Datasets: Based on [FLORES-200](https://github.com/facebookresearch/flores) and [PATIMT-Bench](https://github.com/XMUDeepLIT/PATIMT-Bench)
 
 ## License
