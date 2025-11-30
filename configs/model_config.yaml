@@ -1,0 +1,26 @@
+model:
+  name: "TransMLLM"
+  base_model: "llava-hf/llava-v1.6-mistral-7b-hf"
+  vision_encoder: "CLIP ViT-L/14"
+  language_model: "Mistral-7B"
+  
+lora:
+  rank: 16
+  alpha: 32
+  target_modules: ["q_proj", "k_proj", "v_proj", "o_proj"]
+  trainable_parameters: 0.5e6  # ~0.007% of 7B
+
+languages:
+  supported:
+    - "en"  # English
+    - "vi"  # Vietnamese
+    - "id"  # Indonesian
+    - "uz"  # Uzbek
+    - "ru"  # Russian
+    - "ja"  # Japanese
+    - "kk"  # Kazakh
+    - "zh-cn"  # Chinese Simplified
+    - "zh-tw"  # Chinese Traditional
+    - "ko"  # Korean
+    - "ur"  # Urdu
+

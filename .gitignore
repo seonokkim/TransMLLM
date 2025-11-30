@@ -1,0 +1,52 @@
+# Config files with sensitive information
+config.yaml
+**/config.yaml
+*.env
+.env
+.env.*
+*secret*
+*key*.yaml
+*key*.yml
+*api_key*
+*apikey*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data and models
+checkpoints/
+*.ckpt
+*.pth
+*.bin
+*.safetensors
+
+# Logs
+logs/
+*.log
+tensorboard/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# References (project-specific)
+references/

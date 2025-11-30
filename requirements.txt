@@ -1,0 +1,51 @@
+# TransMLLM Requirements
+# Core dependencies for training and inference
+
+# PyTorch and Vision
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Transformers and Model Libraries
+transformers>=4.35.0
+peft>=0.6.0                    # For LoRA
+accelerate>=0.24.0
+datasets>=2.14.0
+
+# Image Processing
+pillow>=9.5.0
+opencv-python>=4.8.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.2.0
+
+# Evaluation Metrics
+sacrebleu>=2.3.1               # For BLEU evaluation
+unbabel-comet>=2.2.0           # For COMET evaluation
+rouge-score>=0.1.2             # For ROUGE evaluation
+bert-score>=0.3.13             # For BERTScore evaluation
+nltk>=3.8.0
+
+# Tokenization
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+tokenizers>=0.21.0
+
+# Hugging Face Ecosystem
+huggingface-hub>=0.20.0
+safetensors>=0.4.2
+
+# Utilities
+tqdm>=4.65.0
+tensorboard>=2.13.0
+PyYAML>=6.0
+python-dotenv>=1.0.0
+
+# Optional: Distributed Training
+# deepspeed>=0.10.0
+
+# Optional: Development
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=4.0.0
+
