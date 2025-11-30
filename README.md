@@ -165,7 +165,6 @@ bash scripts/evaluate.sh
 - **Multilingual Document Dataset (PATIMT-Multilingual)**: [rileykim/multilingual-document](https://huggingface.co/datasets/rileykim/multilingual-document)
   - 10,600 samples across 11 languages
   - Extended from [PATIMT-Bench](https://github.com/XMUDeepLIT/PATIMT-Bench) (originally English-Chinese pairs) to 11 languages
-  - Based on [PATIMT-Bench dataset](https://huggingface.co/datasets/quisso/PATIMT-Bench)
   - Real-world document images with natural noise and variations
   - Images are embedded in the dataset (automatically handled)
 
