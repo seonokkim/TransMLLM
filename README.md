@@ -158,18 +158,6 @@ Or use the shell script:
 bash scripts/evaluate.sh
 ```
 
-## Results
-
-### Main Results
-
-| Language Pair | BLEU | COMET | ROUGE-L | BERTScore |
-|--------------|------|-------|---------|-----------|
-| en→vi | - | - | - | - |
-| en→id | - | - | - | - |
-| en→ja | - | - | - | - |
-| en→kk | - | - | - | - |
-| en→ko | - | - | - | - |
-
 ## Dataset
 
 ### Primary Dataset
