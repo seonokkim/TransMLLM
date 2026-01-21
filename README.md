@@ -3,7 +3,7 @@
 ![TransMLLM Overview](figure/fig_overview.png)
 
 
-## Abstract
+## TransMLLM
 
 TransMLLM is a multimodal multilingual document translation model that leverages Large Multimodal Models (LMMs) for document image machine translation. The model is based on LLaVA-Next-7B and supports 11 languages including English, Vietnamese, Indonesian, Uzbek, Russian, Japanese, Kazakh, Chinese Simplified, Chinese Traditional, and Korean.
 
