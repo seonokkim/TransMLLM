@@ -2,6 +2,7 @@
 
 ![TransMLLM Overview](figure/fig_overview.png)
 
+**Paper:** [TransMLLM (PDF)](paper/TransMLLM.pdf)
 
 ## TransMLLM
 
